@@ -12,6 +12,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 # for model serialization
 import joblib
+import os
 
 # for hugging face space authentication to upload files
 from huggingface_hub import login, HfApi, create_repo
